@@ -1,0 +1,218 @@
+body {
+
+background-image:url('blackback1.jpg');
+background-repeat:repeat-y;
+margin: 0;
+
+}
+
+#container{
+width:1050px;
+height:auto;
+margin:0 auto;
+padding:13px 18px;
+box-shadow: 13px 0px 10px -7px #888, -13px 0px 10px -7px #888;
+background-color: #D4D8DB;
+}
+#containeru{
+width:1050px;
+height:auto;
+margin:0 auto;
+padding:13px 18px;
+box-shadow: 13px 0px 10px -7px #888, -13px 0px 10px -7px #888;
+background-color: white;
+}
+
+
+
+/* Menu CSS */ 
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a{
+
+padding: 0;
+margin: 0;
+line-height: 1;
+font-family: 'Capriola', sans-serif;
+
+}
+
+#cssmenu:before, #cssmenu:after, #cssmenu > ul:before, #cssmenu > ul:after {
+
+content: '';
+display: table;
+}
+
+#cssmenu:after, #cssmenu > ul:after {
+clear: both;
+}
+
+#cssmenu {
+
+zoom: 100%;
+height: 72px;
+background: url(bottom-bg.png) repeat-x center bottom;
+border-radius: 1px;
+}
+
+#cssmenu ul{
+background: url(nav-bg.png) repeat-x 0px 4px;
+height: 65px;
+}
+
+#cssmenu ul li{
+
+float: left;
+list-style: none;
+}
+
+#cssmenu ul li a{
+
+display: block;
+height: 30x;
+padding: 13px 17px 12px;
+margin: 2px 8px 0;
+border-radius: 12px 12px 12px 12px;
+text-decoration: none;
+font-size: 16px;
+font-family: "Lucida Bright", Georgia, serif;
+color: #6B0000;
+
+font-weight: 555;
+opacity: .9;
+}
+
+#cssmenu ul li:first-child a{
+margin: 5px 22px 0px 0px;
+}
+
+
+
+#cssmenu ul li a:hover, #cssmenu ul li.active a{
+
+background: url(color.png) center bottom;
+display: block;
+height: 25px;
+margin-top: 4px;
+padding-top: 15px;
+color: orange;
+text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+
+}
+
+
+
+hr.gradient_one {
+    border: 0;
+    height: 3px;
+    background: #63C;
+    background-image: -webkit-linear-gradient(left, #C9F, #3366FF, #C9F);
+    background-image: -moz-linear-gradient(left, #C9F, #63C, #C9F);
+    background-image: -ms-linear-gradient(left, #C9F, #63C, #C9F);
+    background-image: -o-linear-gradient(left, #C9F, #63C, #C9F);
+}
+
+
+hr.symbol {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #red;
+    text-align: center;
+}
+hr.symbol:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: red;
+}
+
+
+#paddingH{
+background-color:grey;
+margin-left:100px;
+margin-right:100px;
+}
+
+#paddingH p{
+background-color:grey;
+text-align:justify;
+color: black;
+}
+
+p.BK{
+font:bold 22px/30px "Comic Sans MS", cursive, sans-serif;
+font-size:18px;
+color:blue;
+}
+.title{
+font:bold 22px/30px "Comic Sans MS", cursive, sans-serif;
+font-size:18px;
+color:yellow;
+}
+
+#image_set{
+
+}
+
+#image_set td{
+font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+font-size:20px;
+text-align: left;
+color:green;
+}
+
+#image_set img{
+width: 345px;
+height: 210px;
+
+}
+div.content 
+{
+font-size:12pt;
+font-family:times new roman;
+font-weight:bold;
+font-style:italic;
+color:#23238e;
+}
+#aboutus p{
+text-align:justify;
+
+}
+#aboutus {
+width:600px;
+height:auto;
+padding:0px 15px;
+color: black;
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+word-spacing:3px;
+}
+
+#aboutuslink {
+padding:0px 10px;
+font-size:17pt;
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+word-spacing:5px;
+
+}
+
+#back2top{
+font-size:20px;
+text-align: right;
+
+}
+#back2top img{
+width: 87px;
+height: 22px;
+padding:0px 975px;
+}
+
+#date {
+color: darkblue;
+width: 186px;
+height: 19px;
+font-size:15px;
+font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+padding:0px 880px;
+}
